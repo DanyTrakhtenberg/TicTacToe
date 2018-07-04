@@ -14,9 +14,6 @@ public:
     QString name;
     QString gameSymbol;
     QLabel  *labelScore;
-
-
-
     int score;
     ~Player();
 

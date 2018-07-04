@@ -4,7 +4,7 @@
 #include<QDebug>
 #include <memory>
 #include "game.h"
-#include "democlass.h"
+//#include "democlass.h"
 #include "player.h"
 #include "utlls.h"
 

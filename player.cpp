@@ -5,8 +5,10 @@ Player::Player(QObject *parent) : QObject(parent)
 {
 
 }
-Player::Player(QString name, QString gameSymbol, int score, QLabel *labelScore):name(name),score(score),gameSymbol(gameSymbol),
-  labelScore(labelScore),QObject(nullptr)
+Player::Player(QString name, QString gameSymbol, int score, QLabel *labelScore):name(name),gameSymbol(gameSymbol),
+  labelScore(labelScore),
+  score(score),
+  QObject(nullptr)
 {
 
 }
